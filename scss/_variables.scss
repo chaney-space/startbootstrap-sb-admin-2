@@ -27,6 +27,34 @@ $green: #1cc88a !default;
 $teal: #20c9a6 !default;
 $cyan: #36b9cc !default;
 
+$dodger-blue: #4dabf7;
+$cerulean: #007cc4;
+$robin-egg-blue: #88dcff;
+$pale-blue: #e5f3fe;
+$powder-blue: #c6e4fc;
+$black-10: rgba(0, 0, 0, 0.1);
+$charcoal-grey: #343a40;
+$steel: #868e96;
+$cool-grey: #adb5bd;
+$silver-two: #ced4da;
+$silver: #dee2e6;
+$pale-grey-three: #e9ecef;
+$pale-grey-two: #f8f9fa;
+$pale-grey: #f1f3f5;
+$white: #ffffff;
+$pumpkin-orange: #fd7e14;
+$red: #ff0000;
+
+
+$primary: $dodger-blue !default;
+$secondary: $cerulean !default;
+$success: $robin-egg-blue !default;
+$danger: $red !default;
+$warning: $charcoal-grey !default;
+$info: $silver-two !default;
+$light: material-color('grey', '50') !default;
+$dark: material-color('grey', '800') !default;
+
 // Custom Colors
 $brand-google: #ea4335 !default;
 $brand-facebook: #3b5998 !default;
@@ -37,7 +65,7 @@ $yiq-contrasted-threshold: 195 !default;
 // Typography
 $body-color: $gray-600 !default;
 
-$font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-sans-serif: "Noto Sana KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
 $font-weight-light: 300 !default;
 // $font-weight-base: 400;
@@ -76,6 +104,8 @@ $dropdown-font-size: 0.85rem !default;
 $dropdown-border-color: $border-color !default;
 
 // Images
-$login-image: 'https://source.unsplash.com/K4mSJ7kc0As/600x800' !default;
+$login-image: '/img/logo.svg' !default;
 $register-image: 'https://source.unsplash.com/Mv9hjnEUHR4/600x800' !default;
 $password-image: 'https://source.unsplash.com/oWTW-jNGl9I/600x800' !default;
+
+$breadcrumb-divider: quote(">");
